@@ -3,12 +3,11 @@ Project name: FamiliHR
 ----- High level intro:
 Fullstack JS app to help members/guests/clients of organizations remember the names of other members/guests/clients.the staff of an organization learn quickly the names of their students or guests. 
 The app relies on a spaced repetition algorithm to optimize the learning.
-The app was designed based on interviews with Hack Reactor staff.
 
-Usage flow for HR:
-1. Before joining a cohort, students put pictures of themselves on imgur and enter their names and image URLs into a Google form 
+Usage flow:
+1. Entering students put pictures of themselves on imgur and enter their names and image URLs into a Google form 
 2. Google puts all entries into a Google Sheet (automatically)
-3. HR staff enters additional information on the sheet (e.g. cohort name)
+3. Staff enters additional information on the sheet (e.g. class name)
 4. Familihr software uses the Google sheet as the single source of student information (card and deck definition)
 5. Familihr also uses 2 Mongo models:
    * Users: name, password and ID of registered users of the Familihr software
